@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second</title>
+	<style>
+		div.container {
+			width: 500px;
+			height: 650px;
+			border: 2px solid;
+			padding: 10px;
+			box-sizing: border-box;
+			background-color: lightgray;
+		}
+		p.dotted {border-style: dotted;}
+		p.dashed {border-style: dashed;}
+		p.solid {border-style: solid;}
+		p.double {border-style: double;}
+		p.groove {border-style: groove;}
+		p.ridge {border-style: ridge;}
+		p.inset {border-style: inset;}
+		p.outset {border-style: outset;}
+		p.none {border-style: none;}
+		p.hidden {border-style: hidden;}
+		p.mix {border-style: dotted dashed solid double;}
+		p.background1 {border-style: solid; border-radius: 20%; width: 35%; height: 20%; padding: 10px; background: darkred; box-sizing: border-box; }
+		p#FirstRectangle {
+			border-radius: 25px;
+			background: darkred;
+			padding: 10px;
+			width: 150px;
+			height: 100px;
+		}
+		p#SecondRectangle {
+			border-radius: 25px;
+			border: 2px solid black;
+			padding: 10px;
+			width: 150px;
+			height: 100px;
+		}
+		p#ThirdRectangle {
+			border-radius: 25px;
+			border: 2px solid black;
+			background: url(Pictures/First.jpg);
+			padding: 10px;
+			width: 150px;
+			height: 100px;			
+		}
+		div#FirstRectangle {
+			border-radius: 15px 50px 30px 5px;
+			padding: 20px;
+			background: darkred;
+			width: 150px;
+			height: 100px;
+		}
+		div#SecondRectangle {
+			border-radius: 15px 50px 30px;
+			padding: 20px;
+			background: darkred;
+			width: 150px;
+			height: 100px;		
+		}
+		div#ThirdRectangle {
+			border-radius: 15px 50px;
+			padding: 20px;
+			background: darkred;
+			width: 150px;
+			height: 100px;					
+		}
+		div#FirstEllipse {
+			border-top-right-radius: 50px 15px;
+			border-top-left-radius: 50px 15px;
+			border-bottom-left-radius: 50px 15px;
+			border-bottom-right-radius: 50px 15px;
+			border: 2px solid black;
+			background: darkred;
+			padding: 10px;
+			width: 150px;
+			height: 100px;
+		}
+		div#SecondEllipse {
+			border-top-right-radius: 15px 50px;
+			border-top-left-radius: 15px 50px;
+			border-bottom-left-radius: 15px 50px;
+			border-bottom-right-radius: 15px 50px;
+			border: 2px solid black;
+			background: darkred;
+			padding: 10px;
+			width: 150px;
+			height: 100px;			
+		}
+		div#ThirdEllipse {
+			border-radius: 50%;
+			border: 2px solid black;
+			background: darkred;
+			padding: 10px;
+			width: 150px;
+			height: 100px;				
+		}
+		a#Link {
+			padding-left: 900px;
+			padding-top: 100px;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<a id="Link" href="First.html">First</a>
+	<div class="container">
+		<h1>Border-styles</h1>
+			<p class="dotted">dotted - წერტილოვანი ჩარჩო</p>
+			<p class="dashed">dashed - წყვეტილი ჩარჩო</p>
+			<p class="solid">solid - უწყვეტი ჩარჩო</p>
+			<p class="double">double - ორმაგი ჩარჩო</p>
+			<p class="groove">groove - ჩაღრმავებული ჩარჩო</p>
+			<p class="ridge">ridge - ამობურცული ჩარჩო</p>
+			<p class="inset">inset - ჩარჩოში ჩაღრმავებული</p>
+			<p class="outset">outset - ჩარჩოში ამობურცული</p>
+			<p class="none">none - ჩარჩო არ არის</p>
+			<p class="hidden">hidden - დამალული ჩარჩო</p>
+			<p class="mix">mix - ჩარჩო შერჩეული საზღვრებით</p>
+	</div>
+	<br>
+	<div class="container">
+		<h1>Border-radius</h1>
+			<p id="FirstRectangle">ფონიანი ტექსტი</p>
+			<p id="SecondRectangle">ჩარჩოიანი ტექსტი</p>
+			<p id="ThirdRectangle">სურათიანი ტექსტი</p>
+	</div>
+	<br>
+	<div class="container">
+		<p>ოთხი მნიშვნელობა - 15px 50px 30px 5px</p>
+			<div id="FirstRectangle"></div>
+		<p>სამი მნიშვნელობა 15px 50px 30px</p>
+			<div id="SecondRectangle"></div>
+		<p>ორი მნიშვნელობა 15px 50px</p>
+			<div id="ThirdRectangle"></div>
+	</div>
+	<br>
+	<div class="container">
+		<p>ელიფსური კუთხე - border-radius 50px/15px</p>
+			<div id="FirstEllipse"></div>
+		<p>ელიფსური კუთხე - border-radius 15px/50px</p>
+			<div id="SecondEllipse"></div>
+		<p>ელიფსური კუთხე - border-radius 50%</p>
+			<div id="ThirdEllipse"></div>
+	</div>
+</body>
+</html>
