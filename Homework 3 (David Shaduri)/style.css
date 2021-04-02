@@ -1,0 +1,191 @@
+body {
+	font-family: Arial, Helvetica;
+	background: url(Pictures/Background.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+nav.General {
+	text-align: center;
+}
+nav a.General {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+nav a.General:hover {
+	background-color: lightgrey;
+	color: black;
+}
+nav a.General.active {
+	background-color: white;
+	color: black;
+}
+div#Pictures {
+	text-align: center;
+	margin-top: 200px;
+}
+img.Home {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	background-color: white;
+}
+h1#Home {
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#Copyright {
+	text-align: right;
+	margin-top: 150px;
+	margin-right: 50px;
+	font-size: 15px;
+}
+div.container {
+	border: solid 2px;
+	width: 800px;
+	height: 130px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: lightgrey;
+	text-align: center;
+}
+div.Gradients {
+	border: solid 1px;
+	width: 160px;
+	height: 100px;
+	margin: 15px;
+	display: inline-block;
+}
+div#firstgradient {
+	background-image: linear-gradient(to right, red, green, blue);
+}
+div#secondgradient {
+	background-image: linear-gradient(to top, red, green, blue);
+}
+div#thirdgradient {
+	background-image: linear-gradient(to left top, red, green, blue);
+}
+div#fourthgradient {
+	background-image: linear-gradient(to bottom left, red, green, blue);
+}
+div#fifthgradient {
+	background-image: radial-gradient(red, green, blue);
+}
+div#sixthgradient {
+	background-image: radial-gradient(red 60%, green 65%, blue 100%);
+}
+div#seventhgradient {
+	background-image: repeating-radial-gradient(blue 10%, green 40%, red 50%);
+}
+div#eigthgradient {
+	background-image: radial-gradient(red 20%, green 20%, blue 30%);
+}
+img#FirstPicture {
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.Text {
+	margin-top: 50px;
+	margin-right: 400px;
+	margin-left: 400px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+img#SecondPicture {
+	width: 500px;
+	height: 400px;
+	transform: rotate(-15deg);
+	border-radius: 100px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+img.ThirdandFourth {
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.BackandForth {
+	display: inline-block;
+	width: 100%;	
+	margin-top: 50px;
+}
+img#Fifth {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
+img#Sixth {
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-left: 20px;
+}
+img#Seventh {
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+img#Eigth {
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+img#Ninth {
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	float: left;	
+}
+img#Tenth {
+	width: 500px;
+	height: 400px;
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+a.Previous {
+	float: left;
+	margin-left: 20%;
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a.Previous:hover {
+	opacity: 0.3;
+	color: white;
+}
+a.Next {
+	float: right;
+	margin-right: 20%;
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a.Next:hover {
+	opacity: 0.3;
+	color: white;
+}
+a.Home {
+	margin-left: 25%;
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a.Home:hover {
+	opacity: 0.3;
+	color: white;
