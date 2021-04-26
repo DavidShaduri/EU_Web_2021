@@ -1,0 +1,78 @@
+table#First {
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 200px;
+}
+td.first {
+	border: solid black 2px;
+	width: 70px;
+	height: 50px;
+}
+td.teal {background-color: teal;}
+td.brown {background-color: beige;}
+td#red {background-color: red;}
+td#blue {background-color: blue;}
+td#yellow {background-color: yellow;}
+td#green {background-color: green;}
+
+div#second {
+	margin-left: 500px;
+	margin-top: 250px;
+}
+
+div.secondbase {
+	border: solid black 2px;
+	width: 100px;
+	height: 100px;
+}
+div#firstblock {
+	z-index: -1;
+	background-color: red;
+}
+div#secondblock {
+	z-index: 0;
+	background-color: green;
+	margin-top: -40px;
+	margin-left: 60px;
+}
+div#thirdblock {
+	z-index: 1;
+	background-color: blue;
+	margin-top: -40px;
+	margin-left: 120px;
+}
+div#fourthblock {
+	z-index: 2;
+	background-color: yellow;
+	margin-top: -40px;
+	margin-left: 180px;
+}
+div#third {
+	border: solid black 2px;
+	background-color: silver;
+	margin: auto;
+	margin-top: 200px;
+	width: 1050px;
+	height: 500px;
+	position: relative;
+}
+img.cornerpictures {width: 200px; height: 200px;}
+img.midpictures {width: 150px; height: 150px;}
+img#left-top-corner {position: absolute; left: 0; top: 0;}
+img#right-top-corner {position: absolute; right: 0; top: 0;}
+img#left-bottom-corner {position: absolute; left: 0; bottom: 0;}
+img#right-bottom-corner {position: absolute; right: 0; bottom: 0;}
+img#biden1 {position: absolute; margin-left: 240px; margin-top: 50px;}
+img#biden2 {position: absolute; margin-left: 280px; margin-top: 100px;}
+img#biden3 {position: absolute; margin-left: 320px; margin-top: 150px;}
+img#biden4 {position: absolute; margin-left: 360px; margin-top: 200px;}
+img#trump1 {position: absolute; right: 0; margin-right: 240px; margin-top: 50px;}
+img#trump2 {position: absolute; right: 0; margin-right: 280px; margin-top: 100px;}
+img#trump3 {position: absolute; right: 0; margin-right: 320px; margin-top: 150px;}
+img#trump4 {position: absolute; right: 0; margin-right: 360px; margin-top: 200px;}
+
+table#fourth {border: solid black 2px; margin: auto; 
+	margin-top: 200px; border-collapse: collapse; width: 700px; height: 400px; text-align: center;}
+td.fourth {border: solid black 2px;}
+td.topbottom {height: 100px; background-color: green;}
+td.menu {width: 100px; background-color: teal;}
