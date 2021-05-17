@@ -1,0 +1,165 @@
+div#login_mainframe {
+	width: 450px;
+	height: 350px;
+	background-color: #F3F3F3;
+	margin: auto;
+	margin-top: 200px;
+	border: outset 1px;
+}
+div#login_title {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 40px;
+	color: #2C2B2B;
+}
+div#login_namepass {
+	text-align: center;
+}
+input#login_username {
+	margin-top: 20px;
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+}
+input#login_password {
+	margin-top: 20px;
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+}
+button#login_signin {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: white;
+	background-color: green;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+}
+button#login_signin:hover {
+	opacity: 0.7;
+}
+div#login_register {
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 15px;
+	cursor: pointer;
+	width: 200px;
+}
+div#login_register:hover {
+	opacity: 0.7;
+}
+div#register_mainframe {
+	border: double 3px;
+	margin: auto;
+	margin-top: 100px;
+	width: 600px;
+	height: 600px;
+}
+div.register_labels {
+	margin-right: 80%;
+	margin-left: 6%;
+	float: right;
+	margin-top: 70px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+	color: grey;	
+}
+input.register_inputs {
+	width: 410px;
+	display: inline-block;
+	border: none;
+	border-bottom: solid 1px;
+	height: 40px;
+	font-size: 15px;
+}
+label.register_labels {
+	display: inline-block;
+	width: 100px;
+	margin-right: 40px;
+	margin-left: 20px;
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: right;
+	color: grey;
+	word-wrap: break-word;
+}
+textarea#register_inputs {
+	width: 410px;
+	border: none;
+	border-bottom: solid 1px;
+	resize: none;
+	vertical-align: middle;
+}
+div#contact_mainframe {
+	border: solid 1px lightgreen;
+	width: 800px;
+	height: 600px;
+	margin: auto; margin-top: 100px;
+	background-color: #F6FEEC;
+	font-family: Arial;
+	border-radius: 5px;
+}
+div#contact_leftframe {
+	border: none;
+	width: 350px;
+	height: 380px;
+	margin-left: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
+div#contact_leftframe input, textarea {
+	margin-top: 30px;
+	width: 300px;
+	font-size: 15px;
+	padding: 5px;
+	resize: none;
+}
+div#contact_rightframe {
+	margin-top: 5px;
+	border: none;
+	width: 350px;
+	height: 380px;
+	margin-right: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+}
+div#contact_rightframe label {
+	font-size: 15px;
+	color: green;
+}
+div#contact_rightframe p {
+	font-size: 18px;
+	font-weight: bold;
+}
+div#contact_bottomframe {
+	border: none;
+	margin: auto;
+	margin-top: 50px;
+	width: 360px;
+	height: 70px;
+	text-align: center;
+}
+div#contact_bottomframe input {
+	border: 1px;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 30px;
+	width: 100%;
+	background-color: green;
+	color: white;
+}
+div#contact_bottomframe input:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}

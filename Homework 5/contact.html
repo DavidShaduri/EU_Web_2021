@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Test</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="contact_mainframe">
+		<div id="contact_leftframe">
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="Email">
+			<input type="number" placeholder="Phone">
+			<textarea placeholder="Special Notes, concerns, or requirements" rows="8" cols="22"></textarea>
+		</div>
+		<div id="contact_rightframe">
+			<p>What is the best way to reach you?</p>
+			<form>
+				<input type="radio" id="Phone" name="WaytoReach" value="Phone">
+				<label for="Phone"> Phone</label><br>
+				<input type="radio" id="Email" name="WaytoReach" value="Email">
+				<label for="Email"> Email</label><br>
+			</form>
+			<p>Days of the week you are available for appointment:</p>
+			<form>
+				<input type="checkbox" id="Monday" name="TimeOfWeek" value="Monday">
+				<label for="Monday"> Monday</label><br>
+				<input type="checkbox" id="Tuesday" name="TimeOfWeek" value="Tuesday">
+				<label for="Tuesday"> Tuesday</label><br>
+				<input type="checkbox" id="Wednesday" name="TimeOfWeek" value="Wednesday">
+				<label for="Wednesday"> Wednesday</label><br>
+				<input type="checkbox" id="Thursday" name="TimeOfWeek" value="Thursday">
+				<label for="Thursday"> Thursday</label><br>
+				<input type="checkbox" id="Friday" name="TimeOfWeek" value="Friday">
+				<label for="Friday"> Friday</label><br>
+			</form>
+			<p>Best time of day for your appointment:</p>
+			<form>
+				<input type="checkbox" id="Morning" name="TimeOfDay" value="Morning">
+				<label for="Morning"> Morning</label><br>
+				<input type="checkbox" id="Afternoon" name="TimeOfDay" value="Afternoon">
+				<label for="Afternoon"> Afternoon</label><br>
+			</form>
+		</div>
+		<hr style="margin-top: 450px; width: 95%; border-width: 0; background-color: green; height: 0.5px;">
+		<div id="contact_bottomframe">
+			<input type="submit" value="Request My Appointment">
+		</div>
+	</div>
+</body>
+</html>

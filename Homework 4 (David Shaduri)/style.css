@@ -71,8 +71,3 @@ img#trump2 {position: absolute; right: 0; margin-right: 280px; margin-top: 100px
 img#trump3 {position: absolute; right: 0; margin-right: 320px; margin-top: 150px;}
 img#trump4 {position: absolute; right: 0; margin-right: 360px; margin-top: 200px;}
 
-table#fourth {border: solid black 2px; margin: auto; 
-	margin-top: 200px; border-collapse: collapse; width: 700px; height: 400px; text-align: center;}
-td.fourth {border: solid black 2px;}
-td.topbottom {height: 100px; background-color: green;}
-td.menu {width: 100px; background-color: teal;}
