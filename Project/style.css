@@ -1,0 +1,230 @@
+body {
+	margin: 0px;
+	background-color: #F0F0F0;
+}
+div.Main_Menu {
+	border-bottom: ridge 1px lightgrey; box-sizing: border-box;
+	height: 70px;
+	display: flex;
+	background-color: #FBF9F9;
+}
+div.Logo {
+	margin-top: auto; margin-bottom: auto;
+}
+a.Logo_Picture {
+	margin-left: 20px;
+}
+a.Logo_Text {
+	margin-left: 10px;
+	font-size: 20px; font-family: URW Chancery L;
+	color: black; text-decoration: none;
+}
+a.Logo_Picture:hover, a.Logo_Text:hover {
+	opacity: 0.7;	
+}
+div.Login_Link {
+	position: absolute;
+	right: 0; margin-right: 30px; margin-top: 25px;
+}
+a.Login_Link {
+	padding: 12px;
+	font-size: 13px; font-family: Arial;
+	color: grey; text-decoration: none;
+}
+a.Login_Link:hover {
+	background-color: #E5E3E3;
+}	
+div.Copyright {
+	color: #363636;
+	position: fixed;
+	bottom: 0; right: 0;
+	margin: 20px;
+	font-size: 13px;
+	z-index: -1;
+}
+div.Contact_Link {
+	position: fixed;
+	bottom: 0; left: 0;
+	margin: 10px;
+}
+div.Contact_Link a {
+	color: #363636;
+	padding: 10px;
+	font-size: 15px; text-decoration: none;
+}
+div.Contact_Link a:hover {
+	background-color: #E5E3E3;
+}
+div.Login {
+	border: hidden 1px black; border-radius: 5px; box-sizing: border-box;
+	box-shadow: 1px 3px 5px 1px #888888;
+	position: absolute; right: 0; margin-right: 10px; margin-top: -15px;
+	width: 233px; height: 200px;
+	background-color: #F9F9F9;
+	font-family: Arial;
+}
+div.Login input {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 200px; padding: 7px;
+	font-size: 16px;
+	background-color: white; color: black;
+}
+div.Login input:focus {
+	background-color: #F6F8FB;
+	border: hidden;
+}
+div.Login button {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 215px; padding: 7px; 
+	font-size: 16px;
+	background-color: #EDECEC;
+}
+div.Login button:hover {
+	opacity: 0.7; cursor: pointer; 
+}
+div.Login button:active {
+	transform: translateY(1px);
+}
+div.Login a.register {
+	margin-left: 10px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Login a.forgotpass {
+	margin-left: 80px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Login a:hover {
+	opacity: 0.7;
+}
+div.Register {
+	border: hidden 1px black; border-radius: 5px; box-sizing: border-box;
+	box-shadow: 1px 3px 5px 1px #888888;
+	position: absolute; right: 0; margin-right: 10px; margin-top: -15px;
+	width: 233px; height: 250px;
+	background-color: #F9F9F9;
+	font-family: Arial;
+}
+div.Register input {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 200px; padding: 7px;
+	font-size: 16px;
+	background-color: white; color: black;
+}
+div.Register input:focus {
+	background-color: #F6F8FB;
+	border: hidden;
+}
+div.Register button {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 215px; padding: 7px; 
+	font-size: 16px;
+	background-color: #EDECEC;
+}
+div.Register button:hover {
+	opacity: 0.7; cursor: pointer; 
+}
+div.Register button:active {
+	transform: translateY(1px);
+}
+div.Register a.login {
+	margin-left: 10px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Register a.forgotpass {
+	margin-left: 90px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Register a:hover {
+	opacity: 0.7;
+}
+div.Forgotpass {
+	border: hidden 1px black; border-radius: 5px; box-sizing: border-box;
+	box-shadow: 1px 3px 5px 1px #888888;
+	position: absolute; right: 0; margin-right: 10px; margin-top: -15px;
+	width: 233px; height: 140px;
+	background-color: #F9F9F9;
+	font-family: Arial;
+}
+div.Forgotpass input {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 200px; padding: 7px;
+	font-size: 16px;
+	background-color: white; color: black;
+}
+div.Forgotpass input:focus {
+	background-color: #F6F8FB;
+	border: hidden;
+}
+div.Forgotpass button {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 215px; padding: 7px; 
+	font-size: 15px;
+	background-color: #EDECEC;
+}
+div.Forgotpass button:hover {
+	opacity: 0.7; cursor: pointer; 
+}
+div.Forgotpass button:active {
+	transform: translateY(1px);
+}
+div.Forgotpass a.login {
+	margin-left: 10px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Forgotpass a.register {
+	margin-left: 135px;
+	font-size: 12px;
+	text-decoration: none; color: #4E4E4E;
+}
+div.Forgotpass a:hover {
+	opacity: 0.7;
+}
+div.Main_Frame {
+	border: hidden 1px black; box-sizing: border-box;
+	width: 800px; height: 600px; margin: auto; margin-top: 60px;
+	background-color: #F9F9F9;
+	padding: 20px;
+	font-size: 16px; font-family: Sylfaen; text-align: justify;
+}
+h1.test {
+	text-align: center; font-size: 25px;
+}
+div.Contact {
+	border: hidden 1px black; border-radius: 5px; box-sizing: border-box;
+	box-shadow: 1px 3px 5px 1px #888888;
+	position: fixed; bottom: 0; left: 0; margin: 45px;
+	width: 400px; height: 300px;
+	background-color: #F9F9F9;
+	font-family: Arial;
+}
+div.Contact input {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 150px; padding: 7px;
+	font-size: 16px;
+	background-color: white; color: black;
+}
+div.Contact input:focus {
+	background-color: #F6F8FB;
+	border: hidden;
+}
+div.Contact button {
+	margin: 10px; border: none; border-radius: 5px;
+	width: 215px; padding: 7px; 
+	font-size: 15px;
+	background-color: #EDECEC;
+}
+div.Contact button:hover {
+	opacity: 0.7; cursor: pointer; 
+}
+div.Contact button:active {
+	transform: translateY(1px);
+}
+div.Contact textarea {
+	resize: none; margin-left: 8px;
+	width: 380px; height: 190px;
+}
