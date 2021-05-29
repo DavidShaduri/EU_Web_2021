@@ -1,0 +1,260 @@
+div#first_container {
+	border: double 2px black;
+	width: 600px; height: content;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	margin:  auto; margin-top: 100px;
+}
+div#first_header {
+	width: 600px; height: 60px;
+	background-color: lightblue;
+	margin-bottom: 2px;
+	display: flex;
+	align-items: center; padding-left: 10px; font-size: 20px;
+}
+div#first_main_content {
+	width: 250px; height: 150px;
+	background-color: green; color: white;
+	margin-bottom: 2px; margin-right: 2px;
+	display: flex;
+	align-items: center; justify-content: center;
+}
+div#first_sidebar {
+	width: 150px; height: 150px;
+	background-color: blue; color: white;
+	margin-bottom: 2px; 
+	display: flex;
+	align-items: center; justify-content: center;
+}	
+div.first_twin {
+	width: 200px; height: 100px;
+	background-color: orange; color: white;
+	margin-right: 1px; margin-left: 1px;
+	display: flex;
+	align-items: center; justify-content: center;
+}
+div#first_footer {
+	width: 600px; height: 40px;
+	background-color: lightblue;
+	margin-top: 2px;
+	display: flex;
+	align-items: center; padding-left: 10px; font-size: 20px;
+}
+div#second_mainframe {
+	display: flex;
+	/*width: fit-content; height: fit-content;*/
+	width: 1000px; height: 600px;
+	margin: auto; margin-top: 100px;
+}
+div#second_leftframe {
+	box-sizing: border-box; margin-right: -94px;
+	display: flex; flex-flow: row wrap;
+	width: 500px; height: 300px;
+}
+div#second_rightframe {
+	display: flex; flex-flow: row wrap; 
+	width: 500px; height: 300px;
+}
+div#second_lefttop {
+	border-radius: 10px; margin: 2px;
+	width: 402px; height: 250px;
+	background-color: purple;
+}
+div#second_leftgreen {
+	border-radius: 10px; margin: 2px;
+	display: flex;
+	width: 200px; height: 200px;
+	background-color: green;
+}
+div#second_left_bluered {
+	border-radius: 10px; margin: 2px;
+	display: flex; flex-flow: row wrap;
+	width: 200px; height: 200px;
+}
+div#second_leftblue {
+	border-radius: 10px; margin: 2px;
+	width: 200px; height: 47px;
+	background-color: blue;
+}
+div#second_leftred {
+	border-radius: 10px; margin: 2px;
+	width: 200px; height: 147px;
+	background-color: red;
+}
+div#second_leftbottom {
+	border-radius: 10px; margin: 2px;
+	width: 402px; height: 150px;
+	background-color: green;
+}
+div#second_right_green {
+	display: flex;
+	border-radius: 10px; margin: 2px;
+	width: 200px; height: 400px;
+	background-color: green;
+}
+div#second_right_bluered {
+	border-radius: 10px; margin: 2px;
+	display: flex; flex-flow: row wrap;
+	width: 200px; height: 400px;
+}
+div#second_right_blue {
+	border-radius: 10px; margin: 2px; margin-top: -1px;
+	width: 200px; height: 78px;
+	background-color: blue;
+}
+div#second_right_red {
+	border-radius: 10px; margin: 2px;
+	width: 200px; height: 318px;
+	background-color: red;
+}
+div#second_right_purple {
+	border-radius: 10px; margin: 2px;
+	width: 400px; height: 204px;
+	background-color: purple;
+}
+div#third_mainframe {
+	display: flex; flex-flow: row wrap;
+	border: solid 4px;
+	width: 600px; height: 422px;
+	margin: auto; margin-top: 100px;
+	background-color: lightgrey;
+}
+div#third_flex-start {
+	display: flex;
+	justify-content: flex-start;
+	border: solid 1px; margin-bottom: 2px;
+	width: 600px; height: 81px;
+}
+div#third_flex-end {
+	display: flex;
+	justify-content: flex-end;
+	border: solid 1px; margin-bottom: 2px;
+	width: 600px; height: 81px;
+}
+div#third_center {
+	display: flex;
+	justify-content: center;
+	border: solid 1px; margin-bottom: 2px;
+	width: 600px; height: 81px;
+}
+div#third_space-between {
+	display: flex;
+	justify-content: space-between;
+	border: solid 1px; margin-bottom: 2px;
+	width: 600px; height: 81px;
+}
+div#third_space-around {
+	display: flex;
+	justify-content: space-around;
+	border: solid 1px;
+	width: 600px; height: 81px;
+}
+div.third_red {
+	border: solid 1px grey;
+	display: inline-flex;
+	width: 150px; height: 80px;
+	background-color: indianred;
+}
+div.third_green {
+	border: solid 1px grey;
+	display: inline-flex;
+	width: 100px; height: 80px;
+	background-color: lightseagreen;
+}
+div.third_blue {
+	border: solid 1px grey;
+	display: inline-flex;
+	width: 200px; height: 80px;
+	background-color: skyblue;
+}
+div.third_text {
+	display: flex; position: absolute;
+	align-self: center;
+	width: 100%; left: 0; justify-content: center;
+	font-size: 25px; font-weight: bold;
+}
+div#fourth_mainframe {
+	margin: auto; margin-top: 100px;
+	display: flex; flex-flow: row wrap;
+	justify-content: space-between;
+	width: 600px; height: 273;
+}
+div#fourth_first-line {
+	margin: 3px;
+	display: flex;
+	align-items: center;
+	width: 600px; height: 50px;
+}
+div#fourth_second-line {
+	margin: 3px;
+	display: flex; justify-content: space-between;
+	width: 600px; height: 50px;
+}
+div#fourth_third-line {
+	margin: 3px;
+	display: flex; justify-content: space-between;
+	width: 600px; height: 50px;
+}
+div#fourth_fourth-line {
+	margin: 3px;
+	display: flex; justify-content: space-between;
+	width: 600px; height: 50px;
+}
+div#fourth_fifth-line {
+	margin: 3px;
+	display: flex; justify-content: space-between;
+	width: 600px; height: 50px;
+}
+div#fourth_sixth-line {
+	margin: 3px;
+	display: flex; justify-content: space-between;
+	width: 600px; height: 50px;
+}
+div.fourth-items {
+	display: flex;
+	width: 600px; height: 50px;
+	background-color: yellowgreen;
+	align-items: center; justify-content: center;
+	margin-right: 10px;
+	color: white;
+}
+div#fifth_mainframe {
+	margin: auto; margin-top: 100px;
+	display: flex;
+	width: 650px; height: 500px;
+}
+div#fifth_mainframe ul {
+	display: flex; flex-flow: row wrap;
+	margin: -20px;
+}
+div#fifth_mainframe li {
+	display: flex;
+	width: 50px;
+	margin: 3px;
+	border-radius: 5px;
+	justify-content: center; padding-top: 5px;
+	background-color: royalblue;
+	color: white;
+}
+div#sixth_mainframe {
+	display: flex; flex-flow: row wrap;
+	width: 700px; height: 400px;
+	margin: auto; margin-top: 100px;
+}
+div#sixth_mainframe ul {
+	display: flex;
+	width: 700px; height: 40px;
+	justify-content: space-around;
+}
+div#sixth_mainframe li {
+	display: flex;
+	border: solid 1px grey;
+	width: 350px;
+	margin-right: 5px;
+	justify-content: center; align-items: center;
+	border-radius: 10px;
+	background-color: white;
+	color: grey;
+}
